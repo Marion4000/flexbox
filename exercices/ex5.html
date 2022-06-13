@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice 5</title>
+    <style>
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        line-height: 1.5;
+      }
+      section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 90vh;
+        border: 4px solid black;
+        margin: 20px;
+      }
+      section > div {
+        padding: 30px 50px;
+        font-size: 1.5em;
+      }
+
+      section div:nth-child(1) {
+        background-color: #fdab2f;
+      }
+      section div:nth-child(2) {
+        background-color: #3af0dd;
+      }
+      section div:nth-child(3) {
+        background-color: #3f42a1;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="enfant1">enfant1</div>
+      <div class="enfant2">enfant2</div>
+      <div class="enfant3">enfant3</div>
+    </section>
+  </body>
+</html>
